@@ -1,25 +1,24 @@
-@media screen and (max-width: 780px){
+@media screen and (max-width: 800px){
     main div#secondType div#imagemPrincipal2{
         margin-right: 5vw;
         width: 35vw;
-        height: max-content;
     }
     
     main div#secondType div#imagemPrincipal2 img{
         width: 35vw;
+        height: 30vw;
     }
 
     main div.firstType div.imagemPrincipal{
         margin-left: 5vw;
         width: 35vw;
-        height: 285px;
     }
     
     main div.firstType div.imagemPrincipal img{
         width: 35vw;
     }
 
-    main div#secondType div#tituloPrincipal2{
-        margin-left: -35%;
+    main div.firstType div.tituloPrincipal{
+        margin-top: 0px;
     }
 }
