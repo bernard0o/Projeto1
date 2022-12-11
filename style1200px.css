@@ -13,6 +13,7 @@
     }
 
     div#menuEscondido{
+        padding-right: 0px;
         top: 0%;
         right: 0%;
         position: absolute;
@@ -27,7 +28,7 @@
     }
 
     div#menuEscondido nav a{
-        width: 150px;
+        width: 20vw;
         display: block;
         font-size: 15px;
         padding: 10px 0px;
@@ -46,7 +47,7 @@
         box-shadow: inset 200px 0px 0px 0px #333398;
     }
 
-    div#iconEscondido:hover + div#menuEscondido{
+    div#iconEscondido:active + div#menuEscondido{
         display: block;
     }
 

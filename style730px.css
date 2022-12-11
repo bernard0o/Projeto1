@@ -1,4 +1,4 @@
-@media screen and (max-width: 730px){
+@media screen and (max-width: 780px){
     main div#secondType div#imagemPrincipal2{
         margin-right: 5vw;
         width: 35vw;
@@ -21,5 +21,9 @@
 
     main div#secondType div#tituloPrincipal2{
         margin-left: -35%;
+    }
+
+    {
+
     }
 }
