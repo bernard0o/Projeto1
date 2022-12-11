@@ -35,6 +35,7 @@ body{
     margin: 0px;
     height: 100vh;
     background: linear-gradient(to right, #7882F3, #5352EE);
+    overflow-x: hidden;
 }
 
 header{
@@ -141,16 +142,15 @@ main div#secondType div#imagemPrincipal2 img{
 footer{
     text-align: center;
     width: 100%;
-    height: 30px;
-    height: max-content;
+    height: 40px;
+    margin-top: 145px;
 }
 
 footer p{
+    width: 100%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 0px;
-    padding-bottom: 20px;
 }
 
 div#iconEscondido{
