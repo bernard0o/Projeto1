@@ -1,5 +1,56 @@
 @media screen and (max-width: 1200px) {
-    header nav{
+    header nav#navPrincipal{
         display: none;
+    }
+
+    header div#esquerda h1{
+        font-size: 4.2vw;
+    }
+
+    div#iconEscondido{
+        display: block;
+        margin: 10px 30px;
+    }
+
+    div#menuEscondido{
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: #3131ccac;
+        width: 25vw;
+        height: 207vh;
+    }
+
+    div#menuEscondido nav{
+        text-align: center;
+        margin: 20px;
+    }
+
+    div#menuEscondido nav a{
+        width: 150px;
+        display: block;
+        font-size: 15px;
+        padding: 10px 0px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        color: #e9ebff;
+        text-decoration: none;
+        background-color: #5959dd;
+        border-radius: 30px;
+        cursor: default;
+        border: 1px solid #e9ebff;
+        transition: all .3s ease-in-out;
+    }
+
+    div#menuEscondido nav a:hover{
+        box-shadow: inset 200px 0px 0px 0px #333398;
+    }
+
+    div#iconEscondido:hover + div#menuEscondido{
+        display: block;
+    }
+
+    div#menuEscondido:hover{
+        display: block;
     }
 }
