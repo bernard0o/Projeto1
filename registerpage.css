@@ -1,0 +1,61 @@
+label{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+main{
+    width: 45vw;
+    margin: auto;
+    margin-top: 150px;
+}
+
+div#login{
+    float: right;
+}
+
+div#register{
+    float: left;
+}
+
+input{
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#login, div#register{
+    margin-top: 30px;
+}
+
+button{
+    font-size: 18px;
+    padding: 13px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    color: #e9ebff;
+    text-decoration: none;
+    background-color: #5959dd;
+    border-radius: 50px;
+    cursor: default;
+    border: 1px solid #e9ebff;
+    transition: all .3s ease-in-out;
+    margin-top: 20px;
+    display: block;
+}
+
+button:hover{
+    box-shadow: inset 200px 0px 0px 0px #333398;
+}
+
+.specialh1{
+    text-align: center;
+    color: #5352EE;
+    background-color: #e9ebff;
+    font-weight: 600;
+    font-size: 3em;
+    padding: 8px 15px;
+    border-radius: 100px;
+}

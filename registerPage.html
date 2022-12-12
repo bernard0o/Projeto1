@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <link rel="stylesheet" href="registerpage.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1200px.css">
+    <link rel="stylesheet" href="style730px.css">
+    <link rel="stylesheet" href="bugsolver.css">
 </head>
 <body>
-    
+    <header>
+        <div id="esquerda">
+            <h1>My Store</h1>
+        </div>
+        <div id="direita">
+            <div id="iconEscondido">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+            </div>
+            <div id="menuEscondido">
+                <nav>
+                    <a href="index.html">Home Page</a> <br>
+                    <a href="#">Products</a> <br>
+                    <a href="#">About us</a> <br>
+                    <a href="#">Register</a>
+                </nav>
+            </div>
+            <nav id="navPrincipal">
+                <a href="index.html">Home Page</a>
+                <a href="#">Products</a>
+                <a href="#">About us</a>
+                <a href="registerPage.html">Register</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="specialh1">Join us to get all benefits!</h1>
+        <div id="login">
+            <h1>Login</h1>
+            <form action="">
+                <label for="nickname">Nickname</label> <br>
+                <input type="text" name="nickname" id="nickname"> <br>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email"> <br>
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password">
+                <button>Login</button>
+            </form>
+        </div>
+        <div id="register">
+            <h1>Register</h1>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email"> <br>
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password">
+                <button>Register</button>
+        </div>
+    </main>
 </body>
 </html>
