@@ -6,8 +6,9 @@
     
     main div#secondType div#imagemPrincipal2 img{
         width: 35vw;
-        height: 30vw;
+        
     }
+
 
     main div.firstType div.imagemPrincipal{
         margin-left: 5vw;
@@ -18,7 +19,9 @@
         width: 35vw;
     }
 
-    main div.firstType div.tituloPrincipal{
-        margin-top: 0px;
+    main div#secondType{
+        margin-top: 35vw;
+        margin-bottom: 25vw;
+        height: 25vw;
     }
 }

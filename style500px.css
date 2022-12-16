@@ -1,0 +1,23 @@
+@media screen and (max-width: 500px) {
+    img{
+        display: none;
+    }
+
+    div#imagemPrincipal2, div.imagemPrincipal{
+        display: none;
+    }
+
+    div.tituloPrincipal, div#tituloPrincipal2{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main div#secondType div#tituloPrincipal2{
+        margin-left: 0px;
+    }
+
+    main div.firstType, main div#secondType{
+        height: 2vw;
+    }
+}
